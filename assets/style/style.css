@@ -6,13 +6,21 @@
 
 .nav {
     font-family: 'Roboto Mono', monospace;
+    
 }
+
+.navbar {
+    background-color: #e2e2e2;
+    
+}
+
 
 .nav-link {
     font-size: 25px;
     font-weight: 300;
     margin-right: 20px;
     margin-left: 10px;
+    
 }
 
 
@@ -49,6 +57,6 @@
     
 }
 
-.btn-secondary {
-    margin-top: 20px;
+.btn {
+    margin-top: 50px;
 }
