@@ -60,3 +60,44 @@
 .btn {
     margin-top: 50px;
 }
+
+/* ---- Footer ---- */
+
+footer .container-fluid {
+    background-color: #e2e2e2;
+    height: 100px;
+    text-align: center;
+    
+}
+
+/* ---- Social Links ---- */
+
+.social-links i {
+    margin-top: 20px;
+    color: white;
+
+}
+
+.social-links i:hover {
+    color: black;
+}
+
+/* ---- Copyright ---- */
+
+.copyright {
+    margin-top: 10px;
+    color: white;
+}
+
+.copyright a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.copyright-link {
+    color: white;    
+}
+
+.copyright-link:hover{
+    color: black;
+}
