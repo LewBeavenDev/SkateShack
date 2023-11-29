@@ -53,6 +53,7 @@
     background-color: rgba(1,1,1,0.5);
     border-radius: 15px; 
     padding: 15px;
+    min-width: 50vw;
     
 }
 
@@ -81,6 +82,9 @@
     text-align: center;
     background-color: #e2e2e2;
     padding: 5px;
+    border-radius: 20px;
+    position: relative;
+    transform: translate(0,-15px);
 }
 
 .about h2 {
@@ -90,6 +94,8 @@
 
 .about p {
     margin-bottom: 30px;
+    max-width: 70%;
+    transform: translateX(20%);
 }
 
 /* ---- Reviews ---- */
@@ -97,26 +103,50 @@
 
 .reviews {
     font-family:'Roboto Mono', monospace;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;  
+    display: flex; 
+    flex-wrap: wrap;
+    text-align: center;
+    column-gap: 10px;
+    justify-content: center;
+    max-width: 90vw;
+    column-gap: 60px;
+    row-gap: 25px;
+
+
 }
 
-.reviews h5 {
-    margin-bottom: 10px;
-    margin-top: -20px;
-}
-
-.review1 {
-    padding: 10px;
-}
-
-.review2 {
+.review {
+    min-width: 200px;
+    max-width: 300px;
     background-color: #e2e2e2;
+    border-radius: 25px;
     padding: 10px;
+
 }
 
-.review3 {
-    padding: 10px;
+.review img {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
 }
+
+.review h5 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;    
+    color: white;
+
+}
+
+
+
+
 
 /* ---- Footer ---- */
 
@@ -124,7 +154,8 @@ footer .container-fluid {
     background-color: #e2e2e2;
     height: 100px;
     text-align: center;
-    margin-top: 20px;
+    
+    border-radius: 20px;
     
 }
 
