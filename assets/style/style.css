@@ -254,23 +254,31 @@
     height: 2016px;
     background-color: #cccccc;
     text-align: center;
-    display: grid;
     background-image: url("../media/skateshackcafe.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     padding-bottom: 20px;
+    padding-top: 150px;
 
 }
 
 .cafe-welcome {
-    background-color: yellowgreen;
-    height: 200px;
     position: relative;
-    transform: translateY(200px);
     padding: 20px;
-    padding: 10px;
+    color: black;
+    border: 1px solid;
+    color: #e2e2e2;   
+    background-color: black;
+    border-radius: 15px;
+    border: solid rgba(107, 106, 106, 0.5);
+    margin: 20px;    
+}
+
+.cafe-menu-items {
+    position: relative;
+    padding: 20px;
     color: black;
     border: 1px solid;
     color: #e2e2e2;   
@@ -278,8 +286,17 @@
     border-radius: 15px;
     border: solid rgba(107, 106, 106, 0.5);
     margin: 20px;
-    
 }
+.cafe-menu-items ul {
+    padding-left: 0;
+
+}
+
+.cafe-menu-items ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
 
 /* ---- Map ---- */
 
