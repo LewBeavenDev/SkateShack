@@ -81,7 +81,6 @@
 /* ---- About ---- */
 
 .about {
-    font-family: 'Roboto Mono', monospace;
     text-align: center;
     background-color: #e2e2e2;
     padding: 5px;
@@ -189,13 +188,28 @@
     padding-bottom: 20px;
 }
 
+.schedule-about {
+    margin-top: 10px;
+    background-color: #e2e2e2;
+    padding: 20px;
+    background: linear-gradient(360deg, rgba(157,157,157,1) 0%, rgba(226,226,226,1) 19%);
+}
+
+.schedule .schedule-about h2 {
+    border: none;
+    background: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
 .schedule .notebanner {
-    padding: 10px 10px 0px 10px;
-    border: 1px solid;
+    display: block;
+    width: 100vw;
+    padding: 10px 20px 10px 20px;
     color: #e2e2e2;   
     background-color: black;
-    border-radius: 20px;
-    border: solid rgba(107, 106, 106, 0.5);
+
 }
 
 .schedule span {
@@ -239,9 +253,11 @@ list-style-type: none;
 
 }
 
-.day-card {  
+.day-card { 
+    justify-self: center; 
     margin: 20px;
-    min-width: 275px;  
+    min-width: 300px;
+    width: 70vw;
     background-color: #e2e2e2;
     border-radius: 25px;
     padding: 10px;
@@ -263,9 +279,7 @@ list-style-type: none;
 
 
 .cafe-welcome {
-    position: relative;
     padding: 20px;
-    color: black;
     border: 1px solid;
     color: #e2e2e2;   
     background-color: black;
