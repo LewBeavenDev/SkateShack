@@ -157,6 +157,7 @@
     padding: 10px;
     border-radius: 10px;    
     color: #e2e2e2;
+    border: solid rgba(107, 106, 106, 0.5);
 }
 
 
@@ -177,15 +178,24 @@
 .schedule {
     margin-top: 120px;
     padding-top: 50px;
-    background-color: #cccccc;
     text-align: center;
     display: grid;
+    justify-content: center;
     background-image: url("../media/schedulebg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     padding-bottom: 20px;
+}
+
+.schedule .notebanner {
+    padding: 10px 10px 0px 10px;
+    border: 1px solid;
+    color: #e2e2e2;   
+    background-color: black;
+    border-radius: 20px;
+    border: solid rgba(107, 106, 106, 0.5);
 }
 
 .schedule span {
@@ -197,48 +207,29 @@
 }
 
 .schedule li {
-    list-style-type: none;
-    background-color: #000000;
-    text-align: center;
-    color: #e2e2e2;
-    margin: 10px auto;
-    border: solid;
-    border-width: 1px;
-    border-radius: 10px;
-    padding: 5px;
-    box-shadow: 10px 5px 10px 0px #000000;
-    border: solid rgba(107, 106, 106, 0.5);
-    max-width: 400px;
+list-style-type: none;
 }
 
 .schedule h2 {
     margin: 10px auto;
     padding: 20px;
-    color: black;
     border: 1px solid;
     color: #e2e2e2;   
     background-color: black;
-    border-radius: 15px;
+    border-radius: 25px;
     border: solid rgba(107, 106, 106, 0.5);
 }
 
-.schedule h4 {
-    margin: 10px auto;
+.schedule h4 {   
     padding: 10px;
-    color: black;
     border: 1px solid;
     color: #e2e2e2;   
     background-color: black;
-    border-radius: 15px;
+    border-radius: 20px;
     border: solid rgba(107, 106, 106, 0.5);
 }
 
-.schedule p {
-    text-align: center;
-    text-wrap: wrap;
-    color: #e2e2e2;
-    
-}
+
 
 .schedule .btn {
     background: linear-gradient(15deg, rgba(199,57,43) 0%, rgb(51, 51, 51));
@@ -248,21 +239,28 @@
 
 }
 
+.day-card {  
+    margin: 20px;
+    min-width: 275px;  
+    background-color: #e2e2e2;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
 /* ---- Cafe ---- */
 
 .cafe {
-    height: 2016px;
-    background-color: #cccccc;
-    text-align: center;
     background-image: url("../media/skateshackcafe.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    padding-top: 200px;
     padding-bottom: 20px;
-    padding-top: 150px;
-
+    text-align: center;
 }
+
+
+
 
 .cafe-welcome {
     position: relative;
@@ -274,6 +272,27 @@
     border-radius: 15px;
     border: solid rgba(107, 106, 106, 0.5);
     margin: 20px;    
+}
+
+.cafe-welcome h2 {
+    margin: 0;
+}
+
+.cafe-about {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-color: #e2e2e2;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(360deg, rgba(157,157,157,1) 0%, rgba(226,226,226,1) 19%);
+}
+
+.cafe-about p {
+    margin-bottom: 30px;
+    max-width: 70%;
+    transform: translateX(20%);
+    padding-top: 20px;
 }
 
 .cafe-menu-items {
@@ -294,7 +313,6 @@
 
 .cafe-menu-items ul li {
     list-style-type: none;
-    text-align: center;
 }
 
 
