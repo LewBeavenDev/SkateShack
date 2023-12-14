@@ -13,7 +13,7 @@
 /* ---- general ---- */
 
 
-
+h4,
 h5 {
     margin-bottom: 20px;
     background-color: black;
@@ -140,7 +140,7 @@ h5 {
     background-color: #e2e2e2;
     border-radius: 25px;
     padding: 20px;
-    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .headshot {
@@ -150,7 +150,7 @@ h5 {
     border: 1px solid;
     border-color: rgba(107, 106, 106, 0.5)2;
     margin: 10px auto;
-    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 1);
 }
 
 .cards h5 {
@@ -167,7 +167,7 @@ h5 {
     text-align: center;
     background-color: black;
     color: #e2e2e2;
-    z-index: -1;
+    z-index: 1;
 }
 
 /* ---- Schedule ---- */
@@ -186,28 +186,10 @@ h5 {
     padding-bottom: 20px;
 }
 
-.schedule-about {
-    margin-top: 10px;
+.about {
     background-color: #e2e2e2;
     padding: 20px;
     background: linear-gradient(360deg, rgba(157,157,157,1) 0%, rgba(226,226,226,1) 19%);
-}
-
-.schedule .schedule-about h2 {
-    border: none;
-    background: none;
-    color: black;
-    margin: 0;
-    padding: 0;
-}
-
-.schedule .notebanner {
-    display: block;
-    width: 100vw;
-    padding: 10px 20px 10px 20px;
-    color: #e2e2e2;   
-    background-color: black;
-
 }
 
 .schedule span {
