@@ -10,6 +10,19 @@
 }
 
 
+/* ---- general ---- */
+
+
+
+h5 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;    
+    color: #e2e2e2;
+    border: 3px solid rgba(107, 106, 106, 0.5);
+}
+
 /* ---- Nav Bar ---- */
 
 .nav {
@@ -85,7 +98,6 @@
     background-color: #e2e2e2;
     padding: 5px;
     position: relative;
-    margin-bottom: -20px;
     z-index: 1;
     background: linear-gradient(360deg, rgba(157,157,157,1) 0%, rgba(226,226,226,1) 19%);
 }
@@ -97,8 +109,8 @@
 
 .about p {
     margin-bottom: 30px;
-    max-width: 70%;
-    transform: translateX(20%);
+    padding: 20px 40px;
+    margin: 20px auto;
 }
 
 /* ---- Reviews ---- */
@@ -109,54 +121,40 @@
 }
 
 .reviews {
-    font-family:'Roboto Mono', monospace;
-    z-index: -1;
     background-image: url("../media/indoor-skatepark.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    min-width: 100%;    
+    position: relative;   
     display: flex; 
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     text-align: center;
-    column-gap: 10px;
-    justify-content: center;
-    max-width: 90vw;
-    column-gap: 60px;
-    row-gap: 10px;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    
 }
 
-
-
-.review {
-    min-width: 200px;
-    max-width: 300px;
+.cards {
+    margin: 20px auto;
+    width: 300px;
     background-color: #e2e2e2;
     border-radius: 25px;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 20px;
     box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.5);
 }
 
-.review img {
-    height: 10vh;
-    width: 10vh;
+.headshot {
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    border: 1px solid;
+    border-color: rgba(107, 106, 106, 0.5)2;
+    margin: 10px auto;
     box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 1);
 }
 
-.review h5 {
-    margin-bottom: 20px;
-    background-color: black;
-    padding: 10px;
-    border-radius: 10px;    
-    color: #e2e2e2;
-    border: solid rgba(107, 106, 106, 0.5);
+.cards h5 {
+    margin: 10px;
 }
 
 
